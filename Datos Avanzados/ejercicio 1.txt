@@ -1,0 +1,31 @@
+Ejercicio 1: Generar un Ticket de Compra 
+
+Descripción: 
+El objetivo de este ejercicio es crear un programa que genere e imprima un ticket de compra a partir de una lista de 
+productos. Cada producto está  representado por un diccionario con un nombre y un precio. El programa debe 
+calcular la cantidad de cada producto, el subtotal de cada uno y el total de la compra. 
+Entrada: 
+Una lista de diccionarios con las claves: 
+•'nombre' (str): El nombre del producto. 
+•'precio' (@loat): El precio del producto. 
+
+Ejemplo de salida: 
+    ----------------- 
+    Ticket de compra: 
+    ----------------- 
+    Manzana x2 - $1.00 
+    Pan x1 - $1.00 
+    Leche x3 - $4.50 
+    Galletas x3 - $6.00 
+    ----------------- 
+    Total: $12.50 
+    ----------------- 
+    
+Ejemplo de uso: 
+productos = [ 
+    {'nombre': 'Manzana', 'precio': 0.5}, 
+    {'nombre': 'Manzana', 'precio': 0.5}, 
+    {'nombre': 'Pan', 'precio': 1.0}, 
+    {'nombre': 'Leche', 'precio': 1.5} 
+] 
+
